@@ -1,0 +1,13 @@
+The Battle of Neighborhoods (week 1)
+	Introduction/Business Problem
+A Group of Medical Practitioners (Medical Laboratory scientists) decides to move their abode from an African Country to the city of Toronto. They intend to arrive in Toronto and establish various medical diagnostic centers (Medical laboratories) across various Neighborhoods in the city of Toronto. Faced with the difficulty of selecting the best and most favorable neighborhood out of 140 neighborhoods in the city of Toronto, they employed the help of a Data scientist.
+The Top factors to be considered in choosing the most favorable neighborhoods are:  neighborhood with low amounts of already established medical diagnostic centers/Medical laboratories, neighborhood with a high number of Hospitals around, neighborhood with an high population and neighborhood with a low crime rate.
+	Data
+1.	Datasets from Foursquare:
+The main data required to solve this problem was collected from Foursquare using the foursquare api. The data consist of the result of a venue search for the number of all available Medical laboratories within a neighborhood at a range of 500 meters with a limit of 100.
+Another set of data also collected from the foursquare api was the number of all available Hospitals within a neighborhood at a radius of 500 meters with a limit of 100.
+2.	Datasets from https://edu.hub.arcgis.com/datasets:
+The other datasets which was needed to complete this project was collected from the website https://edu.hub.arcgis.com/datasets. These datasets includes:
+a.	CityofToronto_WFL1:  A spreadsheet (csv-file) that contains the name of all the 140 neighborhoods in Toronto alongside their respective latitude and longitude
+b.	CrimebyNeighbhToronto2019: A  spreadsheet (csv-file) that contains all the 140 neighborhoods in Toronto alongside the number of crimes that has been committed in each respective neighborhood.
+c.	Toronto_Neighbourhoods: A spreadsheet (csv-file) that contains the name of all the 140 neighborhoods in Toronto alongside their respective Population.
